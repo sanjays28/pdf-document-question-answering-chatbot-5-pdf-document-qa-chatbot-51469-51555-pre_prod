@@ -1,0 +1,46 @@
+# Web Framework
+fastapi>=0.68.0
+uvicorn>=0.15.0
+python-multipart>=0.0.5
+pydantic>=1.8.0
+starlette>=0.14.2
+jinja2>=3.0.0
+email-validator>=2.0.0  # For email validation
+python-jose[cryptography]>=3.3.0  # For JWT handling
+passlib[bcrypt]>=1.7.4  # For password hashing
+
+# PDF Processing
+PyPDF2>=3.0.0
+pdfminer.six>=20221105
+langchain>=0.0.200
+unstructured>=0.7.0  # For better PDF text extraction
+pdf2image>=1.16.0  # For PDF to image conversion if needed
+
+# Vector Storage and Embeddings
+faiss-cpu>=1.7.4
+numpy>=1.21.0
+scikit-learn>=1.0.0
+sentence-transformers>=2.2.0
+torch>=2.0.0  # Required for sentence-transformers
+transformers>=4.30.0  # For additional embedding models
+
+# OpenAI Integration
+openai>=0.27.0
+tiktoken>=0.3.0
+aiohttp>=3.8.0  # For async HTTP requests
+backoff>=2.2.0  # For rate limiting and retries
+
+# Testing
+pytest>=7.0.0
+pytest-asyncio>=0.18.0
+httpx>=0.24.0
+pytest-cov>=4.0.0
+pytest-mock>=3.10.0  # For mocking in tests
+faker>=18.0.0  # For generating test data
+
+# Utilities
+python-dotenv>=0.19.0
+tenacity>=8.2.0
+loguru>=0.7.0
+pyyaml>=6.0  # For configuration management
+rich>=13.0.0  # For better console output
